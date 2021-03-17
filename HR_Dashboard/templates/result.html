@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>                
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <title>Predict Your Wealth</title>
+    <link rel="icon" href="/images/icon.png" type="image/gif" sizes="16x16">
+
+    <style>
+    .row div{padding: 20px 10px; border: 1px solid;}
+    </style>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background-color: brown!important;">
+
+    <div class="container">
+        <h2 class="display-1">{{ prediction }}</h2>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+
+
